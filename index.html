@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Gestion Salles</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="LesFonctions.js"></script>
+        <script type="text/javascript" src="jquery-3.1.1.js"></script>
+    </head>
+    
+    <body onload="GetDernierNumeroSalle()">
+        <h1 style="color: green">Gestion Salles</h1>
+        <label>Numero de la salle </label>
+        <input id="txtNumSalles" type="text"><br>
+        <label>Nom de la salle </label>
+        <input id="txtNomSalles" type="text"><br>
+        <label>Nombre de place </label>
+        <input id="txtNbrSalles" type="number" min="1" max="600"><br>
+        <input type="button" id="btnInserer" value="inserer" onclick="InsererSalle">;
+    </body>
+</html>
